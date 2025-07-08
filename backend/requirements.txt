@@ -1,0 +1,8 @@
+﻿Flask[async]==3.1.1
+SQLAlchemy==2.0.41
+alembic==1.16.2
+python-dotenv==1.1.1
+httpx==0.28.1
+zeep==4.2.1
+Flask-Migrate==4.0.5
+Flask-CORS==6.0.1
