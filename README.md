@@ -17,6 +17,18 @@ We've added robust date parsing to handle ISO8601 timezone formats in the VIES r
 
 ## Setup
 
+### Quick Start (Run Backend & Frontend Together)
+
+```bash
+# Windows PowerShell
+.\start-app.ps1
+
+# Linux/Mac
+./start-app.sh
+```
+
+This will start both the backend and frontend in separate terminal windows.
+
 ### Using Docker Compose
 
 ```bash
@@ -27,7 +39,7 @@ docker-compose up -d
 docker-compose down
 ```
 
-### Manual Setup
+### Manual Setup (Running Components Separately)
 
 #### Backend
 
