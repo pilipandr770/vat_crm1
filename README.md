@@ -32,9 +32,20 @@ docker-compose down
 #### Backend
 
 ```bash
+# Install dependencies
 cd backend
 pip install -r requirements.txt
-python app.py
+cd ..
+
+# Run the application (Windows PowerShell)
+$env:FLASK_APP = "backend.app:create_app"
+$env:FLASK_ENV = "development" 
+flask run --host=0.0.0.0 --port=8000
+
+# Alternative: Use the provided script
+./run.ps1  # Windows PowerShell
+# or
+# ./run.sh  # Linux/Mac
 ```
 
 #### Frontend
